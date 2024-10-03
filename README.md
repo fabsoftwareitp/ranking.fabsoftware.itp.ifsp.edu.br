@@ -27,5 +27,5 @@ E então vai aparecer a seguinte mensagem: "Servidor executando na porta: 9091",
 [RANKING CLASSIC GAMES](https://github.com/fabsoftwareitp/ranking.fabsoftware.itp.ifsp.edu.br)
 
 # Contribuição/Autores
- [<img loading="lazy" src="https://avatars.githubusercontent.com/u/2002182?v=4" width=115><br><sub>Danilo Camargo Bueno</sub>](https://github.com/danilocbueno) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/165536121?v=4" width=115><br><sub>Leonardo Domingos da Luz</sub>](https://github.com/JoniEmann) |
+ [<img loading="lazy" src="https://avatars.githubusercontent.com/u/2002182?v=4" width=115><br><sub>Danilo Camargo Bueno</sub>](https://github.com/danilocbueno) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/165536121?v=4" width=115><br><sub>Joni Emannuel Albuquerque Pinheiro</sub>](https://github.com/JoniEmann) |
 | :---: | :---: |
