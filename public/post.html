@@ -1,0 +1,28 @@
+<h1>Teste post</h1>
+<form method="post" action="/ranking" id="myForm">
+    <input type="text" name="name" placeholder="nome do jogador">
+    <input type="number" name="score" placeholder="pontuacao">
+    <input type="text" name="game" placeholder="jogo">
+    <button type="submit">vai</button>
+</form>
+<script>
+    var form = document.getElementById('myForm');
+    form.onsubmit = function (event) {
+        var xhr = new XMLHttpRequest();
+        var formData = new FormData(form);
+        //open the request
+        xhr.open('POST', '/ranking')
+        xhr.setRequestHeader("Content-Type", "application/json");
+
+        //send the form data
+        xhr.send(JSON.stringify(Object.fromEntries(formData)));
+
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == XMLHttpRequest.DONE) {
+                form.reset(); //reset form after AJAX success or do something else
+            }
+        }
+        //Fail the onsubmit to avoid page refresh.
+        return false;
+    }
+</script>
