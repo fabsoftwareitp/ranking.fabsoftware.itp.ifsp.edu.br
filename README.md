@@ -5,7 +5,7 @@
 
 
 # Descrição do Projeto
-O projeto RANKING CLASSIC GAMES foi feito para organizar os rankings disponíveis nos respectivos jogos que a Fábrica de Software produziu: SPACE INVADERS, BRICK BREAKERS, PONG. Sercvindo para armazenar os players e pontos de cada jogo, o projeto RANKING atende de maneira geral os jogos da fábrica. 
+O projeto RANKING CLASSIC GAMES foi feito para organizar os rankings disponíveis nos respectivos jogos da Fábrica de Software: SPACE INVADERS, BRICK BREAKERS, PONG. Servindo para armazenar os players e pontos de cada jogo, o projeto RANKING atende de maneira geral os jogos da fábrica. 
 
 # Status do Projeto
 Status: Em desenvolvimento...
@@ -24,8 +24,7 @@ Após isso, executar no terminal do VSCode, os seguintes comandos:
 E então vai aparecer a seguinte mensagem: "Servidor executando na porta: 9091", e com isso o ranking já está pegando localmente para uso
 
 # Acesso ao Projeto (Link do Projeto)
-[RANKING CLASSIC GAMES](https://github.com/fabsoftwareitp/ranking.fabsoftware.itp.ifsp.edu.br)
-
+[RANKING CLASSIC GAMES](https://github.com/fabsoftwareitp/ranking.fabsoftware.itp.ifsp.edu.br) 
 # Contribuição/Autores
  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/2002182?v=4" width=115><br><sub>Danilo Camargo Bueno</sub>](https://github.com/danilocbueno) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/165536121?v=4" width=115><br><sub>Joni Emannuel Albuquerque Pinheiro</sub>](https://github.com/JoniEmann) |
 | :---: | :---: |
