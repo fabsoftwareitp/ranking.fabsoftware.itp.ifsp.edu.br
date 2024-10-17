@@ -36,6 +36,8 @@ router.post('/ranking/', function(req, res) {
   delete data.game; 
   const dbFileName = getFileName(game); //pega o nome do arquivo
   db.insert(dbFileName, data); //salva os dados no arquivo
+  const newRanking = db.read(dbFileName);
+  res.send(newRanking); //envia os dados
 })
 
 module.exports = app => {
