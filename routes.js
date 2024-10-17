@@ -40,6 +40,13 @@ router.post('/ranking/', function(req, res) {
   res.send(newRanking); //envia os dados
 })
 
+router.get('/reset/:game', function (req, res) {
+  const game = req.params.game; //pega os valores da URL
+  const dbFileName = getFileName(game); //pega o nome do arquivo
+  const data = db.reset(dbFileName); //le o arquivo JSON do respectivo game
+  res.send([]); //envia os dados
+});
+
 module.exports = app => {
   app.use(
     bodyParser.json(),

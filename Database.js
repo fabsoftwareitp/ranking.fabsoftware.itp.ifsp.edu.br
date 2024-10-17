@@ -21,6 +21,16 @@ class Database {
       return error.message;
     }
   }
+
+  static reset(filename) {
+    try {
+      const data = JSON.parse(fs.readFileSync(filename));
+      fs.writeFileSync(filename, JSON.stringify([]))
+      return 'inserido com sucesso!';
+    } catch (error) {
+      return error.message;
+    }
+  }
 }
 
 module.exports = Database;
